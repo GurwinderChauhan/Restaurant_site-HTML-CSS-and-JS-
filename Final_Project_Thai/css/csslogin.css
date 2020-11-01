@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+:root{
+  margin:0;
+  font-family: Ubuntu,sans-serif;
+}
+body{
+  margin:0;
+}
+.center{
+  text-align: center;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+img.avatar {
+
+  border-radius: 50%;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+
+.close {
+  
+  position: absolute;
+  right: 25px;
+  top: 0; 
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+/*
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}*/
+
+.form-section{
+  width: 15rem;
+  margin: 0 auto;
+}
+.wrapper{
+  background: #b9b9b9;
+  height: 100vh;
+  padding-top: 5rem;
+  
+}
+.form-section{
+  padding: 2rem;
+  background: #777;
+  border-radius: 20px;
+  color: #fff;
+}
+.login_btn{
+    width: 100%;
+    padding: 0.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #ccc;
+    color: #777;
+    border: #777 1px solid;
+}
+.login_btn:hover{
+    background: #777;
+    color: #ccc;
+    border: #ccc 1px solid;
+
+}

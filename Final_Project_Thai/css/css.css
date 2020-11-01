@@ -1,0 +1,35 @@
+body{
+   height:100%;
+   width:100%;
+   background-image:url("../img/main.jpg");
+   background-repeat:no-repeat;  
+   background-size:cover;
+   margin: 0;
+	
+}
+
+.topnav {
+  background-color: #333;
+  position: absolute;
+  display: flex;
+  top: 0;
+  width: 100%;
+  
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 35px;
+  text-decoration: none;
+  font-size: 30px;
+}
+.logo_wr{
+  padding:1rem;
+}
+.nav_links{
+      margin-left: auto;
+}
+
+

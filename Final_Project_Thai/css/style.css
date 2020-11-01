@@ -1,0 +1,151 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: gray;
+	color: #485e74;
+	line-height: 1.6em;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Sans-serif;
+	padding: 1em;
+}
+
+.container{
+	max-height: 1000px;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+	
+	
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+.brand span{
+	color: #fff;
+}
+
+.wrapper{
+	box-shadow:0 0 40px 5px rgba(72, 92, 116, 0.7);
+}
+
+
+.wrapper > *{
+	
+	padding:1em;
+}
+
+.company-info{
+	
+	background-color: #333;
+}
+
+.company-info h3, .
+company-info ul{
+	text-align: center;
+	margin: 0 0 1em 0;
+	
+}
+
+.contact{
+	background: #333;
+}
+
+.contact  form{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	
+}
+
+.contact form label{
+	display: block;
+	
+}
+
+.contact form p{
+	margin:0;
+	
+}
+
+.contact form .full{
+	grid-column:1/3;
+	
+}
+
+.contact form input, .contact form textarea{
+	width: 100%;
+	padding: 1em;
+	border: 1px solid #c9e6ff;
+	
+	
+}
+
+.container form input[type="submit"]{
+
+    background: #999;
+    border: 0;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    font-size: 0.8rem;
+
+}
+
+.container form input[type="submit"]:hover{
+	background: #92bde7;
+	color:#fff;
+}
+
+
+
+@media(min-width: 700px){
+	.wrapper{
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+	}
+	.wrapper > *{
+		padding: 2em;
+		
+	}
+	.company-info ul, .company-info h3, .brand {
+		text-align: left;
+		
+	}
+}
+
+.contact-body{
+	padding: 0 !important;
+	margin: 0;	
+}
+.contact-bg{
+	    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    z-index: -999;
+}
+
+.container.ctc{
+	    margin-top: 10%;
+}
+
+.icon{
+	margin-right: 5px;
+}
+#white{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
